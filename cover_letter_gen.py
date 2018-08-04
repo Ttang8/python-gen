@@ -53,4 +53,5 @@ message.write("Terrence Tang")
 message.close()
 
 # check
+# update
 os.startfile("message.txt")
