@@ -51,7 +51,4 @@ message.write("Thank you for your time and consideration." + '\n\n')
 message.write("Sincerely," + '\n')
 message.write("Terrence Tang")
 message.close()
-
-# check
-# update
 os.startfile("message.txt")
