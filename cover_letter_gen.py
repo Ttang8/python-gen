@@ -31,6 +31,8 @@ for i in range(len(skills)):
     else:
         skill_string = skill_string + ", " + skills[i]
 
+
+# Email creation
 message = open('message.txt', 'w+')
 dear = "Hi {},".format(recipient[0])
 line_one = "I recently applied for the {} position through {}.  I notice that you are a {} at {}. ".format(job_position[0],application[0],recipient_title[0],company[0])
